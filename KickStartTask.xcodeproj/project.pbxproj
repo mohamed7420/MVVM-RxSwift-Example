@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		8B275A9F2A41A570003C6223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275A9E2A41A570003C6223 /* AppDelegate.swift */; };
 		8B275AA12A41A570003C6223 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275AA02A41A570003C6223 /* SceneDelegate.swift */; };
-		8B275AA32A41A570003C6223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275AA22A41A570003C6223 /* ViewController.swift */; };
-		8B275AA62A41A570003C6223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B275AA42A41A570003C6223 /* Main.storyboard */; };
 		8B275AA82A41A572003C6223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B275AA72A41A572003C6223 /* Assets.xcassets */; };
 		8B275AAB2A41A572003C6223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B275AA92A41A572003C6223 /* LaunchScreen.storyboard */; };
 		8B275AB62A41A572003C6223 /* KickStartTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275AB52A41A572003C6223 /* KickStartTaskTests.swift */; };
 		8B275AC02A41A572003C6223 /* KickStartTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275ABF2A41A572003C6223 /* KickStartTaskUITests.swift */; };
 		8B275AC22A41A573003C6223 /* KickStartTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B275AC12A41A573003C6223 /* KickStartTaskUITestsLaunchTests.swift */; };
+		8B275AD02A41A80F003C6223 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 8B275ACF2A41A80F003C6223 /* RxBlocking */; };
+		8B275AD22A41A80F003C6223 /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8B275AD12A41A80F003C6223 /* RxBlocking-Dynamic */; };
+		8B275AD42A41A80F003C6223 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8B275AD32A41A80F003C6223 /* RxCocoa */; };
+		8B275AD62A41A80F003C6223 /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8B275AD52A41A80F003C6223 /* RxCocoa-Dynamic */; };
+		8B275AD82A41A80F003C6223 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 8B275AD72A41A80F003C6223 /* RxRelay */; };
+		8B275ADA2A41A810003C6223 /* RxRelay-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8B275AD92A41A810003C6223 /* RxRelay-Dynamic */; };
+		8B275ADC2A41A810003C6223 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8B275ADB2A41A810003C6223 /* RxSwift */; };
+		8B275ADE2A41A810003C6223 /* RxSwift-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8B275ADD2A41A810003C6223 /* RxSwift-Dynamic */; };
+		8B275AE02A41A810003C6223 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 8B275ADF2A41A810003C6223 /* RxTest */; };
+		8B275AE22A41A810003C6223 /* RxTest-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8B275AE12A41A810003C6223 /* RxTest-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		8B275A9B2A41A570003C6223 /* KickStartTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickStartTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B275A9E2A41A570003C6223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B275AA02A41A570003C6223 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B275AA22A41A570003C6223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8B275AA52A41A570003C6223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B275AA72A41A572003C6223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B275AAA2A41A572003C6223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B275AAC2A41A572003C6223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +62,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B275ADE2A41A810003C6223 /* RxSwift-Dynamic in Frameworks */,
+				8B275AE02A41A810003C6223 /* RxTest in Frameworks */,
+				8B275AD82A41A80F003C6223 /* RxRelay in Frameworks */,
+				8B275AD62A41A80F003C6223 /* RxCocoa-Dynamic in Frameworks */,
+				8B275ADA2A41A810003C6223 /* RxRelay-Dynamic in Frameworks */,
+				8B275AD42A41A80F003C6223 /* RxCocoa in Frameworks */,
+				8B275AD02A41A80F003C6223 /* RxBlocking in Frameworks */,
+				8B275AD22A41A80F003C6223 /* RxBlocking-Dynamic in Frameworks */,
+				8B275AE22A41A810003C6223 /* RxTest-Dynamic in Frameworks */,
+				8B275ADC2A41A810003C6223 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +115,11 @@
 		8B275A9D2A41A570003C6223 /* KickStartTask */ = {
 			isa = PBXGroup;
 			children = (
-				8B275A9E2A41A570003C6223 /* AppDelegate.swift */,
-				8B275AA02A41A570003C6223 /* SceneDelegate.swift */,
-				8B275AA22A41A570003C6223 /* ViewController.swift */,
-				8B275AA42A41A570003C6223 /* Main.storyboard */,
-				8B275AA72A41A572003C6223 /* Assets.xcassets */,
-				8B275AA92A41A572003C6223 /* LaunchScreen.storyboard */,
-				8B275AAC2A41A572003C6223 /* Info.plist */,
+				8B275AE32A41A953003C6223 /* AppDelegate */,
+				8B275AE42A41A961003C6223 /* Controllers */,
+				8B275AE52A41A96D003C6223 /* Resources */,
+				8B275AE62A41A97D003C6223 /* ViewModels */,
+				8B275AE72A41A991003C6223 /* Views */,
 			);
 			path = KickStartTask;
 			sourceTree = "<group>";
@@ -127,6 +141,46 @@
 			path = KickStartTaskUITests;
 			sourceTree = "<group>";
 		};
+		8B275AE32A41A953003C6223 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8B275A9E2A41A570003C6223 /* AppDelegate.swift */,
+				8B275AA02A41A570003C6223 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8B275AE42A41A961003C6223 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B275AE52A41A96D003C6223 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B275AA72A41A572003C6223 /* Assets.xcassets */,
+				8B275AAC2A41A572003C6223 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B275AE62A41A97D003C6223 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8B275AE72A41A991003C6223 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B275AA92A41A572003C6223 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +197,18 @@
 			dependencies = (
 			);
 			name = KickStartTask;
+			packageProductDependencies = (
+				8B275ACF2A41A80F003C6223 /* RxBlocking */,
+				8B275AD12A41A80F003C6223 /* RxBlocking-Dynamic */,
+				8B275AD32A41A80F003C6223 /* RxCocoa */,
+				8B275AD52A41A80F003C6223 /* RxCocoa-Dynamic */,
+				8B275AD72A41A80F003C6223 /* RxRelay */,
+				8B275AD92A41A810003C6223 /* RxRelay-Dynamic */,
+				8B275ADB2A41A810003C6223 /* RxSwift */,
+				8B275ADD2A41A810003C6223 /* RxSwift-Dynamic */,
+				8B275ADF2A41A810003C6223 /* RxTest */,
+				8B275AE12A41A810003C6223 /* RxTest-Dynamic */,
+			);
 			productName = KickStartTask;
 			productReference = 8B275A9B2A41A570003C6223 /* KickStartTask.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +281,9 @@
 				Base,
 			);
 			mainGroup = 8B275A922A41A570003C6223;
+			packageReferences = (
+				8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 8B275A9C2A41A570003C6223 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +302,6 @@
 			files = (
 				8B275AAB2A41A572003C6223 /* LaunchScreen.storyboard in Resources */,
 				8B275AA82A41A572003C6223 /* Assets.xcassets in Resources */,
-				8B275AA62A41A570003C6223 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +326,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B275AA32A41A570003C6223 /* ViewController.swift in Sources */,
 				8B275A9F2A41A570003C6223 /* AppDelegate.swift in Sources */,
 				8B275AA12A41A570003C6223 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B275AA42A41A570003C6223 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B275AA52A41A570003C6223 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8B275AA92A41A572003C6223 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -450,6 +509,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +538,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +668,70 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B275ACF2A41A80F003C6223 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		8B275AD12A41A80F003C6223 /* RxBlocking-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxBlocking-Dynamic";
+		};
+		8B275AD32A41A80F003C6223 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		8B275AD52A41A80F003C6223 /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+		8B275AD72A41A80F003C6223 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		8B275AD92A41A810003C6223 /* RxRelay-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxRelay-Dynamic";
+		};
+		8B275ADB2A41A810003C6223 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		8B275ADD2A41A810003C6223 /* RxSwift-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxSwift-Dynamic";
+		};
+		8B275ADF2A41A810003C6223 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		8B275AE12A41A810003C6223 /* RxTest-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B275ACE2A41A80F003C6223 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxTest-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B275A932A41A570003C6223 /* Project object */;
 }
