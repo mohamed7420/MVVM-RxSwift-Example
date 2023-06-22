@@ -1,0 +1,180 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "a66ce689b2f7250d3cf26ac03dad69b42ca56f597af4eb90816cbbdc66b05d47"
+    },
+    {
+      "guid" : "a66ce689b2f7250d3cf26ac03dad69b41f51403d41e9ca0743dc6448019c6041"
+    },
+    {
+      "guid" : "a66ce689b2f7250d3cf26ac03dad69b4ec63b7bfc2b78437f66639a7a54dbb8d"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:Kingfisher"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:Kingfisher"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Combining_Operators_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Combining_Operators.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Connectable_Operators_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Connectable_Operators.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Creating_and_Subscribing_to_Observables_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Creating_and_Subscribing_to_Observables.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Debugging_Operators_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Debugging_Operators.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Enable_RxSwift_Resources_total_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Enable_RxSwift.Resources.total.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Error_Handling_Operators_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Error_Handling_Operators.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Filtering_and_Conditional_Operators_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Filtering_and_Conditional_Operators.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Introduction_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Introduction.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Mathematical_and_Aggregate_Operators_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Mathematical_and_Aggregate_Operators.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Rx_Sources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Table_of_Contents_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Table_of_Contents.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Transforming_Operators_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Transforming_Operators.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:TryYourself_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/TryYourself.xcplaygroundpage"
+    },
+    {
+      "guid" : "PLAYGROUND-PRODUCT:Working_with_Subjects_PageSources-PLAYGROUND-TARGET:/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/SourcePackages/checkouts/RxSwift/Rx.playground/Pages/Working_with_Subjects.xcplaygroundpage"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:Differentiator"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:Differentiator"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxDataSources"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:RxDataSources"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:RxBlocking"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxBlocking"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxBlocking-Dynamic"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:RxCocoa"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxCocoa"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxCocoa-Dynamic"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:RxCocoaRuntime"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:RxRelay"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxRelay"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxRelay-Dynamic"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:RxSwift"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxSwift"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxSwift-Dynamic"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:RxTest"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxTest"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:RxTest-Dynamic"
+    }
+  ],
+  "containerPath" : "/Users/mohamedosama/Downloads/iOS_Topics/KickStartTask/KickStartTask.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos17.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/mohamedosama/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mohamedosama/Library/Developer/Xcode/DerivedData/KickStartTask-fsxqbnmooxdracalxmbcsigrnhsk/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone11,6",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.0",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone11,6",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "00008020-000478841E88003A",
+          "TARGET_DEVICE_MODEL" : "iPhone11,6",
+          "TARGET_DEVICE_OS_VERSION" : "17.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
