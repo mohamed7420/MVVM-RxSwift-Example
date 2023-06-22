@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProductsShimmerView" customModule="KickStartTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQA-cr-MB9">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kzc-Xg-reO">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="1012.6666666666666"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="AMh-HG-BRE">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="1012.6666666666666"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hIC-cg-ok6">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="186.66666666666666"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kxN-eh-m5B">
+                                                    <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="186.66666666666666"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4F4-qE-Wqj">
+                                                            <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="186.66666666666666"/>
+                                                            <color key="backgroundColor" name="appShimmer"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="4F4-qE-Wqj" secondAttribute="height" multiplier="1:1" id="U5w-fg-8fY"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="r7V-3q-MJ2">
+                                                    <rect key="frame" x="206.66666666666663" y="0.0" width="186.33333333333337" height="186.66666666666666"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qa8-bs-gP9">
+                                                            <rect key="frame" x="0.0" y="0.0" width="186.33333333333334" height="186.66666666666666"/>
+                                                            <color key="backgroundColor" name="appShimmer"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="qa8-bs-gP9" secondAttribute="height" multiplier="1:1" id="K8y-Jg-0zj"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="A2g-hN-4JO">
+                                            <rect key="frame" x="0.0" y="206.66666666666663" width="393" height="186.33333333333337"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Vdj-XV-shs">
+                                                    <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="186.33333333333334"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3G1-1B-WyY">
+                                                            <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="186.33333333333334"/>
+                                                            <color key="backgroundColor" name="appShimmer"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="3G1-1B-WyY" secondAttribute="height" multiplier="1:1" id="uY9-pa-y0Z"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="c8e-DR-a6F">
+                                                    <rect key="frame" x="206.66666666666663" y="0.0" width="186.33333333333337" height="186.33333333333334"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l5n-eW-Llj">
+                                                            <rect key="frame" x="0.0" y="0.0" width="186.33333333333334" height="186.33333333333334"/>
+                                                            <color key="backgroundColor" name="appShimmer"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="l5n-eW-Llj" secondAttribute="height" multiplier="1:1" id="Ptm-oX-zVd"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MMM-Ry-mzK">
+                                            <rect key="frame" x="0.0" y="413" width="393" height="186.66666666666663"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zr9-6J-0SG">
+                                                    <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="186.66666666666666"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="38j-8f-1kW">
+                                                            <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="186.66666666666666"/>
+                                                            <color key="backgroundColor" name="appShimmer"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="38j-8f-1kW" secondAttribute="height" multiplier="1:1" id="uk3-lJ-fgF"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="p2K-h2-ebY">
+                                                    <rect key="frame" x="206.66666666666663" y="0.0" width="186.33333333333337" height="186.66666666666666"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9CV-zZ-env">
+                                                            <rect key="frame" x="0.0" y="0.0" width="186.33333333333334" height="186.66666666666666"/>
+                                                            <color key="backgroundColor" name="appShimmer"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="9CV-zZ-env" secondAttribute="height" multiplier="1:1" id="j4N-co-cff"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Vaf-2D-1g5">
+                                            <rect key="frame" x="0.0" y="619.66666666666663" width="393" height="186.33333333333337"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xhA-Ev-V8L">
+                                                    <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="186.33333333333334"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dek-Yi-Wyl">
+                                                            <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="186.33333333333334"/>
+                                                            <color key="backgroundColor" name="appShimmer"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="dek-Yi-Wyl" secondAttribute="height" multiplier="1:1" id="e36-yg-QJ5"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="s0r-Z7-XvB">
+                                                    <rect key="frame" x="206.66666666666663" y="0.0" width="186.33333333333337" height="186.33333333333334"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZm-DT-39J">
+                                                            <rect key="frame" x="0.0" y="0.0" width="186.33333333333334" height="186.33333333333334"/>
+                                                            <color key="backgroundColor" name="appShimmer"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="gZm-DT-39J" secondAttribute="height" multiplier="1:1" id="0ID-uw-gej"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xi6-iq-sB6">
+                                            <rect key="frame" x="0.0" y="826" width="393" height="186.66666666666663"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cls-s3-reT">
+                                                    <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="186.66666666666666"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghN-94-XE4">
+                                                            <rect key="frame" x="0.0" y="0.0" width="186.66666666666666" height="186.66666666666666"/>
+                                                            <color key="backgroundColor" name="appShimmer"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="ghN-94-XE4" secondAttribute="height" multiplier="1:1" id="FHy-m3-LQM"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" alpha="0.0" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lrt-gn-mua">
+                                                    <rect key="frame" x="206.66666666666663" y="0.0" width="186.33333333333337" height="186.66666666666666"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAu-MD-0YM">
+                                                            <rect key="frame" x="0.0" y="0.0" width="186.33333333333334" height="186.66666666666666"/>
+                                                            <color key="backgroundColor" name="appShimmer"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="zAu-MD-0YM" secondAttribute="height" multiplier="1:1" id="tp1-5y-xwd"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="kzc-Xg-reO" firstAttribute="bottom" secondItem="91H-0K-BU5" secondAttribute="bottom" id="1f1-Ft-zfx"/>
+                        <constraint firstItem="kzc-Xg-reO" firstAttribute="trailing" secondItem="91H-0K-BU5" secondAttribute="trailing" id="dvJ-Hj-aME"/>
+                        <constraint firstItem="kzc-Xg-reO" firstAttribute="top" secondItem="91H-0K-BU5" secondAttribute="top" id="ms6-5c-08N"/>
+                        <constraint firstItem="kzc-Xg-reO" firstAttribute="leading" secondItem="91H-0K-BU5" secondAttribute="leading" id="plX-T3-kse"/>
+                        <constraint firstItem="kzc-Xg-reO" firstAttribute="width" secondItem="KbP-yj-FCd" secondAttribute="width" id="sCI-4h-Qpm"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="91H-0K-BU5"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="KbP-yj-FCd"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="QQA-cr-MB9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OFh-ap-HM0"/>
+                <constraint firstAttribute="trailing" secondItem="QQA-cr-MB9" secondAttribute="trailing" id="RWu-vI-af5"/>
+                <constraint firstItem="QQA-cr-MB9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wEz-oF-7M0"/>
+                <constraint firstAttribute="bottom" secondItem="QQA-cr-MB9" secondAttribute="bottom" id="zLc-kp-pBx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="88" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="appShimmer">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
