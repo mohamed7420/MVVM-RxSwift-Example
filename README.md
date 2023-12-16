@@ -1,5 +1,5 @@
-# KickStartTask
-In this repo, i'm trying to implement kick start company task by using RxSwift and MVVM
+# MVVM+RxSwift
+In this repo, I'm trying to implement MVVM+RxSwift
 # Repository Name
 
 Short description or overview of the repository.
